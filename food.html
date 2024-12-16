@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cuisine - VisitChina</title>
+	<link rel="icon" type="image/x-icon" href="tabicon2.png">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+    
+	div.gallery {
+		margin: 5px;
+		border: 1px solid #ccc;
+		float: left;
+		width: 35%;
+		height:300px;
+		display:flex;
+		flex:1;
+		}
+
+	div.gallery:hover {
+		border: 1px solid #f777;
+		}
+
+	div.gallery img {
+		width: 100%;
+		height: auto;
+		}
+
+	div.desc {
+		padding: 15px;
+		color:red;
+		font-family:Sans-serif;
+		font-size:35px;
+		}
+		
+	.dropdown {
+		position: relative;
+		display: inline-block;
+		}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #fffed7;
+		max-width: 350px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		padding: 12px 16px;
+		z-index: 1;
+		}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+		}
+		
+	body{
+	background-image:url("paintingBG.jpg")
+	}
+
+    </style>
+  </head>
+
+  <body>
+    <script src="script.js"></script>
+	
+	<!--NAV-->
+	
+    <nav>
+		<img src="topleftnavthing.png" style="height:150px;">
+		<a href="homepage.html" class="btn" style="margin-left:240px;">
+			<img src="homeicon.png" style="height:100px;">
+			</a>	
+		<a href="food.html" class="btn">
+			<img src="cuisineicon.png" style="height:100px">
+			</a>		
+		<a href="experiences.html" class="btn">
+			<img src="experiencesicon.png" style="height:100px">
+			</a>
+    </nav>
+	
+	<!--GALLERY-->
+	<div style="text-align:center; background-color:#ff6b6b;">
+		<h1 style="font-size:40px; color:white; width:100%">
+			Hover over boxes for more information!
+		</h1>
+	</div>
+	
+	
+	<div class="conchanga">
+	<div class="gallery dropdown" style="background-color:#ffffff91;">
+		<div class="desc"><br><br>Western China</div>
+			<img src="chinaW.png" style="height:250px">
+		<div class="dropdown-content">
+			<h1 style="text-decoration:underline; color:#3b3a3a; font-size:25px">
+			Sichuanese/Szechuan Cuisine
+			</h1>
+			<h3 style="color:#545454">This style of Chinese cuisine originates from 
+			the Sichuan Province. The food consists of bold 
+			flavors. More specifically, a strong and spicy taste due to the 
+			use of chili peppers, Sichuan pepper, and garlic. 
+			<a href="foodWest.html">
+			<h3 style="color:#3c3cff; font-size:18px; text-decoration:underline;">
+			Click here for more info
+			</h3> 
+			</a>
+		</div>
+	</div>
+	
+
+	<div class="gallery dropdown" style="background-color:#ffffff91;">
+		<div class="desc"><br><br>Northern China</div>
+		<a target="_blank" href="chinaN.png">
+			<img src="chinaN.png" style="height:250px">
+			</a>
+		<div class="dropdown-content">
+			<h1 style="text-decoration:underline; color:#3b3a3a; font-size:25px">
+			Shandong Cuisine
+			</h1>
+			<h3 style="color:#545454; font-size:18px">This cooking style is well known 
+			for its variety of cooking methods. This style utilizes 
+			domestic animals, birds, seafood, vegetables, and more. Methods 
+			of cooking can be frying, boiling, stewing, and roasting. 
+			The food is known for its freshness and rich taste.
+			</h3>
+			<a href="foodNorth.html">
+			<h3 style="color:#3c3cff; font-size:18px; text-decoration:underline;">
+			Click here for more info
+			</h3> 
+			</a>
+		</div>
+	</div>
+
+	<div class="gallery dropdown" style="background-color:#ffffff91;">
+		<div class="desc"><br><br>Eastern China</div>
+		<a target="_blank" href="chinaE.png">
+			<img src="chinaE.png" style="height:250px">
+			</a>
+		<div class="dropdown-content">
+			<h1 style="text-decoration:underline; color:#3b3a3a; font-size:25px">
+			Huaiyang/Jianghuai Cuisine
+			</h1>
+			<h3 style="color:#545454">This cooking 
+			style is derived from the native style
+			of the region surrounding the Huai and 
+			Yangtze river. This stle is seen as one
+			of the most popular and prestigious
+			styles of cuisine that dominates the 
+			culinary culture of China. The dishes
+			tend to be slightly sweeter than 
+			others and contain little to no spice.
+			</h3>
+			<a href="foodEast.html">
+			<h3 style="color:#3c3cff; font-size:18px; text-decoration:underline;">
+			Click here for more info
+			</h3> 
+			</a>
+		</div>
+	</div>
+
+	<div class="gallery dropdown" style="background-color:#ffffff91;">
+		<div class="desc" style="font-size:30px"><br><br>Sourthern China & Hong Kong</div>
+		<a target="_blank" href="chinaS.png">
+			<img src="chinaS.png" style="height:250px; width:300px; padding-bottom:250px;">
+			</a>
+			<div class="dropdown-content">
+			<h1 style="text-decoration:underline; color:#3b3a3a; font-size:25px">
+			Yue/Cantonese Cuisine
+			</h1>
+			<h3 style="color:#545454">This style
+			of cuisine represents the south of 
+			China. This style is also referred to 
+			as Cantonese or Guangdong cuisine. 
+			This style of cuisine is one of the 
+			most famous and was at a certain time 
+			the most popular style throughout the 
+			Western world. This cuisine 
+			incorporates almost all edible meats 
+			and even exotic animals such as snails.
+			This style is also known to be 
+			balanced and not greasy.
+			</h3>
+			<a href="foodSouth.html">
+			<h3 style="color:#3c3cff; font-size:18px; text-decoration:underline;"> 
+			Click here for more info
+			</h3> 
+			</a>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<p>Copyright © 2024</p>
+	</div>
+	</div>
+
+  </body>
+</html>

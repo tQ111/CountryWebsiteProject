@@ -1,0 +1,72 @@
+
+*{
+	font-family:Arial;
+}
+
+a{
+	text-decoration:none;
+}
+
+#banner{
+	background:black;
+	color:white;
+}
+
+.conchanga{
+	padding-left:23%;
+}
+
+nav{
+	display:flex;
+	flex:1;
+	background-color:rgb(247, 113, 89);
+	width:100%;
+}
+
+nav .btn{
+  color:white;
+  margin:0 10px 0 10px;
+  display:inline-block;
+  width:20%;
+  text-align:bottom;
+}
+
+nav .btn:hover{
+	filter:blur(1px);
+	filter:contrast(50%);
+	filter: drop-shadow(8px 8px 10px pink);
+	border-color:white;
+	border-style:solid;
+	border-width:2px;
+}
+
+.gallery:hover{
+	filter:blur(1px);
+	filter:contrast(50%);
+	filter: drop-shadow(8px 8px 10px pink);
+}
+
+nav .btn2:hover{
+	filter:blur(10px);
+	filter:contrast(50%);
+	filter:drop-shadow(-8px 8px 10px #375e3a);
+}
+
+nav .btn2{
+	filter:blur(1px);
+	filter:contrast(50%);
+	filter:drop-shadow(-3px 3px 4px #375e3a);
+}
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(247, 113, 89);
+  color: white;
+  text-align: center;
+}
+WIDTH DO NOW
